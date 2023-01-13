@@ -1,0 +1,21 @@
+.card{
+    height: 8.438em;
+    width: 15.983em;
+    background: linear-gradient(106.09deg, #FFFFFF 1.82%, rgba(239, 239, 239, 0.722569) 25.46%, rgba(211, 214, 221, 0.583854) 61.23%, rgba(227, 225, 225, 0.15) 89.96%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-bottom: 5%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}

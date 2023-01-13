@@ -1,0 +1,12 @@
+.Card1{
+    border:5px solid red;
+    background-color: red;
+}
+.Card2{
+    border:5px solid yellow;
+    background-color: yellow;
+}
+.Card3{
+    border:5px solid green;
+    background-color: green;
+}
