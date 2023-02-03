@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    height: 100vh;
+    margin-left: 6vw;
+    grid-template-columns: .01fr 1fr;
+    grid-template-rows: .5fr 1fr 1fr .5fr;
+    grid-gap: .8rem;
+    /* margin-bottom: 20rem; */
+    grid-template-areas: 
+    "nav header header header"
+    "nav main main main"
+    "nav main main main"    
+ ;
+ 
+}
+
+.nav{
+    grid-area: nav;
+    max-width: 1vh;
+}
+
+.header{
+    grid-area: header;
+    max-width: 90%;
+    margin-top: 1%;
+}
+
+.main{
+    margin-left: 3rem;
+    grid-area: main;
+    margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width:550px){
+    .container{
+        margin-left: 0vw;
+    }
+    .main{
+        margin-left: 5rem;   
+    }
+}

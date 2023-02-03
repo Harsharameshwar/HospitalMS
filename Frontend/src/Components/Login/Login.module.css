@@ -1,0 +1,24 @@
+.bg{
+    background-image: url('../../Assets/backimage.png');
+    background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+.bg1{
+    background-image: url('../../Assets/backimage.png');
+    background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg{
+        background-position: right -17rem top 9em;
+    }
+    .bg1{
+        background-position: right top;
+    }
+}

@@ -1,0 +1,43 @@
+.head{
+    height: 11.75vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.52);
+    color: #FFFFFF;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.landback{
+    background-image: url('../../Assets/Landing.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    width: 100%;
+    height: 78.25vh;
+    
+}
+
+.foot{
+    height: 8.4rem;
+    width:100%;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.52);
+}
+.comp{
+    background: white;
+}
+.para{
+    width: 610px;
+    height: 249px;
+    background: rgba(156, 152, 152, 0.49);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(2px);
+    color: white;
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 30px;
+}
