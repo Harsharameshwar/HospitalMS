@@ -1,6 +1,6 @@
 # HospitalMS
 
-This application for Hospital Management System which has been built using MERN Stack 
+This application is Hospital Management System which has been built using MERN Stack 
 
 - Just clone the project and change the directory to respective folder and type the command npm install
 
