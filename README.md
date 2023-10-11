@@ -6,5 +6,5 @@ This application is Hospital Management System which has been built using MERN S
 
 - Then replace the Database string inside dotenv file and just type npm start
 
-The project is deployed here -[HospitalMS](https://main--funny-ganache-059bb7.netlify.app/)
+The project is deployed here -[HospitalMS](https://hospitalmgmtsys.netlify.app/)
 
