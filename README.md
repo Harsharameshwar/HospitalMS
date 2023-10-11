@@ -8,7 +8,3 @@ This application is Hospital Management System which has been built using MERN S
 
 The project is deployed here -[HospitalMS](https://main--funny-ganache-059bb7.netlify.app/)
 
-The admin login is 
-
-username - harsha@gmail.com
-password - 123456
