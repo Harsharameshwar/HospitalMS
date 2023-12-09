@@ -1,7 +1,6 @@
 var express = require('express');
 const path = require("path");
 var indexRouter = require('../src/routes/index');
-
 const dataInlet = require("../src/config/data.config");
 const connectDB = require('../src/config/database.config');
 
@@ -14,11 +13,6 @@ app.use("/", indexRouter);
 
 connectDB();
 
-app.use(express.static(path.join(__dirname, "./build")));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./build/index.html"));
-});
 const whitelist = [
   '*'
 ];
