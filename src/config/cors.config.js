@@ -2,6 +2,7 @@ const whitelist = [
   // "http://172.20.51.120:3000",
   "http://localhost:5000",
   "http://localhost:3000",
+  "https://hospital-ms.vercel.app/"
   // "http://certificate.statstudio.in",
 ];
 
